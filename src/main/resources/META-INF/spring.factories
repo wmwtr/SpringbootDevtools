@@ -2,6 +2,6 @@
 org.springframework.context.ApplicationListener=\
 io.gitlab.wmwtr.springbootdevtools.Restart.RestarterApplicationListener
 
-## Auto Configure
-#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-#io.gitlab.wmwtr.springbootdevtools.autoconfigure.DevToolsAutoConfiguration
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.gitlab.wmwtr.springbootdevtools.AutoConfigure.AutoConfiguration
