@@ -73,10 +73,15 @@ public class ProcessClassPathFiles {
             options.add(classPath.getPath());
         }
         private void compile(File... javaFile) {
+            // read again
+            String[] var1 = new String[javaFile.length];
+            for (int var2 = 0; var2 < var1.length; var2++){
+                var1[var2] = javaFile[var2].getPath();
+            }
             JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
             DiagnosticCollector<JavaFileObject> collector = new DiagnosticCollector<>();
             StandardJavaFileManager manager = compiler.getStandardFileManager(null, null, null);
-            Iterable<? extends JavaFileObject> javaFileObjects = manager.getJavaFileObjects(javaFile);
+            Iterable<? extends JavaFileObject> javaFileObjects = manager.getJavaFileObjects(var1);
             JavaCompiler.CompilationTask task = compiler.getTask(null, manager, collector, options, null, javaFileObjects);
             collector.getDiagnostics().forEach(item -> logger.info(item.toString()));
             task.call();
