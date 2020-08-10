@@ -1,4 +1,4 @@
-package io.gitlab.wmwtr.springbootdevtools.AutoConfigure;
+package com.github.wmwtr.springbootdevtools.AutoConfigure;
 
 import org.springframework.context.annotation.Conditional;
 

@@ -1,4 +1,4 @@
-package io.gitlab.wmwtr.springbootdevtools.FileWatch;
+package com.github.wmwtr.springbootdevtools.FileWatch;
 
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;

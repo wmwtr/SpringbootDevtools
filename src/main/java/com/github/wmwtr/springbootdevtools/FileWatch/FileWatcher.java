@@ -1,7 +1,7 @@
-package io.gitlab.wmwtr.springbootdevtools.FileWatch;
+package com.github.wmwtr.springbootdevtools.FileWatch;
 
-import io.gitlab.wmwtr.springbootdevtools.AutoCompile.AutoCompiler;
-import io.gitlab.wmwtr.springbootdevtools.Restart.PatternClassPathStrategy;
+import com.github.wmwtr.springbootdevtools.AutoCompile.AutoCompiler;
+import com.github.wmwtr.springbootdevtools.Restart.PatternClassPathStrategy;
 import org.apache.commons.io.monitor.FileAlterationMonitor;
 import org.apache.commons.io.monitor.FileAlterationObserver;
 import org.apache.commons.logging.Log;

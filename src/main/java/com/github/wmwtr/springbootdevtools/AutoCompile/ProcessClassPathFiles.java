@@ -1,4 +1,4 @@
-package io.gitlab.wmwtr.springbootdevtools.AutoCompile;
+package com.github.wmwtr.springbootdevtools.AutoCompile;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.logging.Log;

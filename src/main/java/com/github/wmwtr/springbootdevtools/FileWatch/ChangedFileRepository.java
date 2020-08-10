@@ -1,6 +1,6 @@
-package io.gitlab.wmwtr.springbootdevtools.FileWatch;
+package com.github.wmwtr.springbootdevtools.FileWatch;
 
-import io.gitlab.wmwtr.springbootdevtools.AutoCompile.AutoCompiler;
+import com.github.wmwtr.springbootdevtools.AutoCompile.AutoCompiler;
 import org.springframework.util.Assert;
 
 import java.io.File;

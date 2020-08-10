@@ -1,7 +1,7 @@
-package io.gitlab.wmwtr.springbootdevtools.Restart;
+package com.github.wmwtr.springbootdevtools.Restart;
 
-import io.gitlab.wmwtr.springbootdevtools.FileWatch.DefaultPatternSourceDirectoryStrategy;
-import io.gitlab.wmwtr.springbootdevtools.FileWatch.FileWatcher;
+import com.github.wmwtr.springbootdevtools.FileWatch.DefaultPatternSourceDirectoryStrategy;
+import com.github.wmwtr.springbootdevtools.FileWatch.FileWatcher;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.CachedIntrospectionResults;
@@ -95,8 +95,9 @@ public class Restarter {
             }
             SilentExitExceptionHandler.exitCurrentThread();
         }
-
-
+    }
+    public URL[] getBaseUrls() {
+        return baseUrls;
     }
     protected Throwable relaunch(ClassLoader classLoader) throws Exception {
         RestartLauncher launcher = new RestartLauncher(classLoader, this.mainClassName, this.args);

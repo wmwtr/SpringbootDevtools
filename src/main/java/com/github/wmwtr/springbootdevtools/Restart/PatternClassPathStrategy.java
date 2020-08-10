@@ -1,4 +1,4 @@
-package io.gitlab.wmwtr.springbootdevtools.Restart;
+package com.github.wmwtr.springbootdevtools.Restart;
 
 import java.net.URL;
 

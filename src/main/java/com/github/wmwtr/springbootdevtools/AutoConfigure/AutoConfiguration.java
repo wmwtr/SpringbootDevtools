@@ -1,10 +1,10 @@
-package io.gitlab.wmwtr.springbootdevtools.AutoConfigure;
+package com.github.wmwtr.springbootdevtools.AutoConfigure;
 
-import io.gitlab.wmwtr.springbootdevtools.FileWatch.DefaultPatternSourceDirectoryStrategy;
-import io.gitlab.wmwtr.springbootdevtools.FileWatch.FileWatcher;
-import io.gitlab.wmwtr.springbootdevtools.FileWatch.PatternSourceDirectoryStrategy;
-import io.gitlab.wmwtr.springbootdevtools.Restart.DefaultPatternClassPathStrategy;
-import io.gitlab.wmwtr.springbootdevtools.Restart.PatternClassPathStrategy;
+import com.github.wmwtr.springbootdevtools.FileWatch.DefaultPatternSourceDirectoryStrategy;
+import com.github.wmwtr.springbootdevtools.FileWatch.FileWatcher;
+import com.github.wmwtr.springbootdevtools.FileWatch.PatternSourceDirectoryStrategy;
+import com.github.wmwtr.springbootdevtools.Restart.DefaultPatternClassPathStrategy;
+import com.github.wmwtr.springbootdevtools.Restart.PatternClassPathStrategy;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplication;

@@ -1,4 +1,4 @@
-package io.gitlab.wmwtr.springbootdevtools.FileWatch;
+package com.github.wmwtr.springbootdevtools.FileWatch;
 
 import java.io.File;
 import java.util.Collection;
