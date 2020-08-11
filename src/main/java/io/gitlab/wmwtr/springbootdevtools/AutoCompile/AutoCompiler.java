@@ -1,8 +1,8 @@
-package com.github.wmwtr.springbootdevtools.AutoCompile;
+package io.gitlab.wmwtr.springbootdevtools.AutoCompile;
 
-import com.github.wmwtr.springbootdevtools.FileWatch.ChangedFile;
-import com.github.wmwtr.springbootdevtools.FileWatch.ChangedFileRepository;
-import com.github.wmwtr.springbootdevtools.Restart.Restarter;
+import io.gitlab.wmwtr.springbootdevtools.FileWatch.ChangedFile;
+import io.gitlab.wmwtr.springbootdevtools.FileWatch.ChangedFileRepository;
+import io.gitlab.wmwtr.springbootdevtools.Restart.Restarter;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

@@ -1,4 +1,4 @@
-package com.github.wmwtr.springbootdevtools.Restart;
+package io.gitlab.wmwtr.springbootdevtools.Restart;
 
 import org.springframework.util.Assert;
 

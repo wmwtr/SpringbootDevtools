@@ -1,6 +1,6 @@
-package com.github.wmwtr.springbootdevtools.AutoConfigure;
+package io.gitlab.wmwtr.springbootdevtools.AutoConfigure;
 
-import com.github.wmwtr.springbootdevtools.Restart.Restarter;
+import io.gitlab.wmwtr.springbootdevtools.Restart.Restarter;
 import org.springframework.boot.autoconfigure.condition.ConditionMessage;
 import org.springframework.boot.autoconfigure.condition.ConditionOutcome;
 import org.springframework.boot.autoconfigure.condition.SpringBootCondition;
