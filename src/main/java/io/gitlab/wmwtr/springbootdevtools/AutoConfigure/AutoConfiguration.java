@@ -11,6 +11,9 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnWebApplicat
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 @Configuration
 @ConditionalOnWebApplication
 @ConditionalOnInitializedRestarter

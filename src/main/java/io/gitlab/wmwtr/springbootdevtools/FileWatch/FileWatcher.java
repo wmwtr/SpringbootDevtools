@@ -13,7 +13,9 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.HashSet;
 
-
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class FileWatcher {
     private static final Log logger = LogFactory.getLog(FileWatcher.class);
     private static FileWatcher instance;

@@ -6,6 +6,9 @@ import org.springframework.util.Assert;
 import java.io.File;
 import java.util.LinkedList;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class ChangedFileRepository {
     private final LinkedList<ChangedFile> files;
     private final LinkedList<AutoCompiler> compilers;

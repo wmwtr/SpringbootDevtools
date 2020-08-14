@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.condition.SpringBootCondition;
 import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 class OnInitializedRestarterCondition extends SpringBootCondition {
 
 	@Override

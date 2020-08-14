@@ -21,6 +21,9 @@ import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class Restarter {
     private Log logger = DeferredLog.replay(new DeferredLog(), LogFactory.getLog(this.getClass()));
     private static Restarter instance;

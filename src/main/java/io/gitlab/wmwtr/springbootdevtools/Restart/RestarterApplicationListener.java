@@ -10,6 +10,9 @@ import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.core.Ordered;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class RestarterApplicationListener implements ApplicationListener<ApplicationEvent>, Ordered {
     private static final Log logger = LogFactory.getLog(RestarterApplicationListener.class);
 

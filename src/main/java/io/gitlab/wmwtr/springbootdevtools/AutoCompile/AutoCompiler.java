@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class AutoCompiler {
     private static final Log logger = LogFactory.getLog(AutoCompiler.class);
     private final BlockingQueue<Runnable> workQueue;
@@ -100,7 +103,9 @@ public class AutoCompiler {
                                 }
                                 onTriggerEnter = false;
                             }
-                            Restarter.getInstance().restart();
+                            if (repository.isEmpty()){
+                                Restarter.getInstance().restart();
+                            }
                         }
                     }
                 }

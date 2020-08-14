@@ -2,6 +2,9 @@ package io.gitlab.wmwtr.springbootdevtools.Restart;
 
 import java.lang.reflect.Method;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class RestartLauncher extends Thread{
     private final String mainClassName;
     private final String[] args;

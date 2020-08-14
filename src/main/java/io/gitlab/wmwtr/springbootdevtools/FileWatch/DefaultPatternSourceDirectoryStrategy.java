@@ -9,6 +9,9 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class DefaultPatternSourceDirectoryStrategy implements PatternSourceDirectoryStrategy{
     private String enctype = "UTF-8";
     public void setEnctype(String enc){

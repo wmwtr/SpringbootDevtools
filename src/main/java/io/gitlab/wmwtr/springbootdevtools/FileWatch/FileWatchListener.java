@@ -4,6 +4,9 @@ import org.apache.commons.io.monitor.FileAlterationListenerAdaptor;
 
 import java.io.File;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class FileWatchListener extends FileAlterationListenerAdaptor{
     private final ChangedFileRepository repository;
     public FileWatchListener(ChangedFileRepository repository){

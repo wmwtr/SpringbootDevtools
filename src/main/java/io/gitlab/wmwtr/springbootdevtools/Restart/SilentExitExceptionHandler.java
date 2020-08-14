@@ -2,6 +2,9 @@ package io.gitlab.wmwtr.springbootdevtools.Restart;
 
 import java.util.Arrays;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 class SilentExitExceptionHandler implements Thread.UncaughtExceptionHandler {
     private final Thread.UncaughtExceptionHandler delegate;
 

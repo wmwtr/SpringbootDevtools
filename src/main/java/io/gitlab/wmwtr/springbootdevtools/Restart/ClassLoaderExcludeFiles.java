@@ -8,6 +8,9 @@ import java.io.File;
 import java.util.Collection;
 import java.util.HashSet;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class ClassLoaderExcludeFiles {
     private final HashSet<File> javaFiles;
     private static ClassLoaderExcludeFiles instance;

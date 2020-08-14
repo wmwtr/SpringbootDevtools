@@ -5,6 +5,9 @@ import org.springframework.util.StringUtils;
 
 import java.io.File;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class ChangedFile {
     private final File sourceDir;
     private ChangedFile.FileType fileType;

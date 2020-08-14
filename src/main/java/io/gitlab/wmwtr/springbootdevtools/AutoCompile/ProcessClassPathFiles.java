@@ -11,6 +11,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class ProcessClassPathFiles {
     private static final Log logger = LogFactory.getLog(ProcessClassPathFiles.class);
     private final File classPath;

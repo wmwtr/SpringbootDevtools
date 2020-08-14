@@ -1,10 +1,6 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
-
 package io.gitlab.wmwtr.springbootdevtools.Restart;
 
+import io.gitlab.wmwtr.springbootdevtools.Restart.ClassLoaderExcludeFiles;
 import org.springframework.core.SmartClassLoader;
 
 import java.io.ByteArrayOutputStream;
@@ -15,6 +11,9 @@ import java.net.URL;
 import java.net.URLClassLoader;
 import java.net.URLDecoder;
 
+/**
+ * @author wmwtr on 2020/8/13
+ */
 public class RestartClassLoader extends URLClassLoader implements SmartClassLoader {
     public RestartClassLoader(ClassLoader parent, URL[] urls){
         super(urls, parent);
@@ -63,15 +62,6 @@ public class RestartClassLoader extends URLClassLoader implements SmartClassLoad
             return super.findClass(name);
         }
         throw new ClassNotFoundException();
-//        Class log = null;
-//        // 获取该class文件字节码数组
-//        if (name.equalsIgnoreCase("com.example.demo.DemoApplication") ) {
-//            byte[] classData = getData(name);
-//            log = defineClass(name, classData, 0, classData.length);
-//            return log;
-//            // 将class的字节码数组转换成Class类的实例
-//        }
-//        throw new ClassNotFoundException();
     }
 
 
